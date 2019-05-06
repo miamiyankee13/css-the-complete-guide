@@ -9,6 +9,9 @@ body {
 
 .main-header {
     background: #2DDF5C;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     padding: 8px 16px;
 }
