@@ -15,8 +15,9 @@
     text-align: center;
 }
 
-/* added on my own to center plans in section*/
-#plans {
+.plan__list {
+    width: 80%;
+    margin: auto;
     text-align: center;
 }
 
