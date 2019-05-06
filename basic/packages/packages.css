@@ -34,12 +34,25 @@ main {
     background: white;
 }
 
+.clearfix {
+    clear: both;
+}
+
 #plus {
     background: rgba(213, 255, 220, 0.95);
 }
 
 #free {
     background: rgba(234, 252, 237, 0.95);
+    float: right;
+    border-right: none;
+    border-left: 4px solid #0E4F1F;
+    text-align: right;
+}
+
+#free:hover,
+#free:active {
+    border-left-color: #FF5454;
 }
 
 #premium {
