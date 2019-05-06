@@ -24,6 +24,11 @@ body {
     text-align: center;
 }
 
+/* added on my own to center plans in section*/
+#plans {
+    text-align: center;
+}
+
 .plan {
     background-color: #D5FFDC;
     text-align: center;
@@ -89,6 +94,50 @@ body {
 .button:active {
     background: white;
     color: #0E4F1F;
+}
+
+.button:focus {
+    outline: none;
+}
+
+#key-features {
+    background: #FF1B68;
+    margin-top: 80px;
+    padding: 16px;
+}
+
+#key-features .section-title {
+    color: white;
+    margin: 32px;
+}
+
+.key-feature__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.key-feature {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.key-feature__image {
+    background: #FFCEDE;
+    width: 128px;
+    height: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.key-feature__description {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
 }
 
 .main-header {
