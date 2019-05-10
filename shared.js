@@ -14,9 +14,12 @@ for (let i = 0; i < selectPlanButtons.length; i++) {
     });
 }
 
-//declare function to close modal & backdrop
+//declare function to close modal (if exists) & backdrop
 function closeModal() {
-    modal.classList.remove('open');
+    if (modal) {
+        modal.classList.remove('open');
+    }
+    
     backdrop.classList.remove('open');
 }
 
@@ -26,8 +29,11 @@ backdrop.addEventListener('click', function() {
     closeModal();
 });
 
-//add click event listener to modal "no" button
-modalNoButton.addEventListener('click', closeModal);
+//if modal "no" button exists, add click event listener 
+if (modalNoButton) {
+    modalNoButton.addEventListener('click', closeModal);
+}
+
 
 //add click event listener to toggle button
 toggleButton.addEventListener('click', function() {
