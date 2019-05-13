@@ -17,7 +17,7 @@
     font-size: 1.6rem;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 40rem) and (min-height: 40rem) {
     #product-overview {
         height: 52vh;
         background-position: 50% 25%;
@@ -148,8 +148,8 @@
     display: none;
     z-index: 200;
     top: 20%;
-    left: 30%;
-    width: 40%;
+    left: 10%;
+    width: 80%;
     background: white;
     padding: 1rem;
     border: 1px solid #ccc;
@@ -191,3 +191,11 @@
     background: #ff5454;
     border-color: #ff5454;
   }
+
+@media (min-width: 40rem) and (min-height: 40rem) {
+    .modal {
+        top: 20%;
+        left: 30%;
+        width: 40%;
+    }
+}
