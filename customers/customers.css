@@ -59,7 +59,7 @@
 @media (min-width: 40rem) {
     .testimonial {
         margin: 3rem auto;
-        max-width: 1500px;
+        max-width: 1300px;
     }
 
     .testimonial__image-container {

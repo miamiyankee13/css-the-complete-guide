@@ -87,3 +87,25 @@ main {
 #premium .package__subtitle {
     color: #BBB;
 }
+
+@media (min-width: 40rem) {
+    main {
+        margin: 3rem auto;
+        max-width: 1300px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .package {
+        border-left: 4px solid #0E4F1F;
+    }
+
+    #free {
+        border-right: 4px solid #0E4F1F;
+    }
+
+    #free:hover,
+    #free:active {
+        border-right-color: #FF5454;
+    }
+}
