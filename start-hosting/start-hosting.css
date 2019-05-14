@@ -28,6 +28,36 @@ main {
 .signup-form input[id*="terms"] + label {
     display: inline-block;
     width: auto;
+    vertical-align: bottom;
+}
+
+.signup-form input:not([type="checkbox"]), 
+.signup-form select {
+    border: 1px solid #CCC;
+    padding: 0.2rem 0.5rem;
+    font: inherit;
+}
+
+.signup-form input:focus,
+.signup-form select:focus {
+    outline: none;
+    background: #D8F3DF;
+    border-color: #2DDF5C;
+}
+
+.signup-form input[type="checkbox"] {
+    border: 1px solid #CCC;
+    background: white;
+    width: 1rem;
+    height: 1rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.signup-form input[type="checkbox"]:checked {
+    background: #2DDF5C;
+    border-color: #0E4F1F;
 }
 
 .signup-form button[type="submit"] {
