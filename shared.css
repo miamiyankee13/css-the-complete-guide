@@ -123,19 +123,6 @@ main {
     border: none;
 }
 
-@media (min-width: 40rem) {
-    .toggle-button {
-        display: none;
-    }
-
-    .main-nav {
-        display: inline-block;
-        text-align: right;
-        width: calc(100% - 44px);
-        vertical-align: middle;
-    }
-}
-
 .main-footer {
     background: black;
     padding: 2rem;
@@ -161,13 +148,6 @@ main {
 .main-footer__link a:hover,
 .main-footer__link a:active {
     color: #CCC;
-}
-
-@media (min-width: 40rem) {
-    .main-footer__link {
-        display: inline-block;
-        margin: 0 1rem;
-    }
 }
 
 .mobile-nav {
@@ -221,4 +201,22 @@ main {
 
 .open {
     display: block !important;
+}
+
+@media (min-width: 40rem) {
+    .toggle-button {
+        display: none;
+    }
+
+    .main-nav {
+        display: inline-block;
+        text-align: right;
+        width: calc(100% - 44px);
+        vertical-align: middle;
+    }
+
+    .main-footer__link {
+        display: inline-block;
+        margin: 0 1rem;
+    }
 }
