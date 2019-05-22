@@ -17,7 +17,7 @@ main {
 .testimonial__image {
     width: 100%;
     vertical-align: top; /*gets rid of whitespace on image*/
-    transform: skew(-20deg) scale(1.4) ;
+    transform: skew(-20deg) scale(1.4);
 }
   
 .testimonial__info {
