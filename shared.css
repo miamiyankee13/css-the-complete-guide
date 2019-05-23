@@ -54,6 +54,9 @@ main {
     width: 100%;
     padding: 0.5rem 1rem;
     z-index: 60;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     align-items: center;
     justify-content: space-between;
